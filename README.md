@@ -1,15 +1,13 @@
-
-
 ## **Documentação Técnica**
 
-**Estrutura do banco de dados(MongoDB):**
+**Estrutura do banco de dados(MongoDB):** <br>
 O banco de dados foi estruturado apenas para ter uma Collection (sem necessidade de ter mais de uma) sem sub-collections, pois o próprio banco de dados (MongoDB) não aceita. Desta forma, foi criado o banco de dados com uma Collection chamada Films onde dentro possui os documents (Filmes):
 
      - Banco de Dados (Test) 	
     	 - Collections (films) 		
     		 - Documents (filmes)
 
-**Validação com JSON Schema (utilizando o Mongoose):**
+**Validação com JSON Schema (utilizando o Mongoose):** <br>
 A inserção ou a atualização de dados só vai funcionar se satisfazer a regra: 
   
 
@@ -78,12 +76,12 @@ Antes de iniciar o uso da API é necessário utilizar um software para testar re
 IMPORTANTE: 
 *1. Configure para que a requisição a ser efetuada esteja correta observando se está utilizando o método correto para a requisição desejada. Exemplo: GET para listar os filmes no banco de dados. 2. No momento em que for inserido um novo filme (documento) e na hora de atualizar, caso necessário, alguns campos são obrigados a serem preenchidos para passar na validação. São eles: title, genere e description, sendo o último obrigatório ter 10 caracteres no mínimo. 3. No código não há muitos tratamentos de erros, desta forma, se porventura o software der algum erro ele fechará automaticamente a aplicação. Sendo necessário então a reinicialização. Exemplo: Não inserir dados em um campo obrigatório.*
 
-**No Postman:**
+**No Postman:** <br>
 No campo de URL coloque: http://localhost:3000
 
-**Para inserir um filme (Document) no banco de dados:**
-**Método**: POST
-**URL**: http://localhost:3000
+**Para inserir um filme (Document) no banco de dados:** <br>
+**Método**: POST <br>
+**URL**: http://localhost:3000 <br>
 Modelo de dados:
 
     {
@@ -98,19 +96,19 @@ Modelo de dados:
 
 Envie a requisição clicando no botão ‘Send’
 
-**Para fazer CONSULTAR TODOS os filmes no banco de dados:**
-**Método**: GET
-**URL**: http://localhost:3000
+**Para fazer CONSULTAR TODOS os filmes no banco de dados:** <br>
+**Método**: GET <br>
+**URL**: http://localhost:3000 <br>
+Envie a requisição clicando no botão ‘Send’ 
+
+**Para fazer CONSULTAR um ÚNICO filme no banco de dados utilizando ID:** <br>
+**Método**: GET <br>
+**URL**: http://localhost:3000/[ID do filme] <br>
 Envie a requisição clicando no botão ‘Send’
 
-**Para fazer CONSULTAR um ÚNICO filme no banco de dados utilizando ID:**
-**Método**: GET
-**URL**: http://localhost:3000/[ID do filme]
-Envie a requisição clicando no botão ‘Send’
-
-**Para ATUALIZAR um filme no banco de dados utilizando ID:**
-**Método**: PUT
-**URL**: http://localhost:3000/[ID do filme]
+**Para ATUALIZAR um filme no banco de dados utilizando ID:** <br>
+**Método**: PUT <br>
+**URL**: http://localhost:3000/[ID do filme] <br>
 Modelo de dados:
 
     {
@@ -126,8 +124,8 @@ E então atualize a informação no filme desejado.*
 
 Envie a requisição clicando no botão ‘Send’
 	
-**Para EXCLUIR um filme no banco de dados utilizando ID:**
-**Método**: DELETE
-**URL**: http://localhost:3000/[ID do filme]
+**Para EXCLUIR um filme no banco de dados utilizando ID:** <br>
+**Método**: DELETE<br>
+**URL**: http://localhost:3000/[ID do filme]<br>
 Envie a requisição clicando no botão ‘Send’
 *OBS: Após o resultado desejado aparecer, confirme a exclusão clicando novamente no botão ‘Send’.*

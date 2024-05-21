@@ -103,12 +103,12 @@ Envie a requisição clicando no botão ‘Send’
 
 **Para fazer CONSULTAR um ÚNICO filme no banco de dados utilizando ID:** <br>
 **Método**: GET <br>
-**URL**: http://localhost:3000/[ID do filme] <br>
+**URL**: http://localhost:3000/[ID_do_filme] <br>
 Envie a requisição clicando no botão ‘Send’
 
 **Para ATUALIZAR um filme no banco de dados utilizando ID:** <br>
 **Método**: PUT <br>
-**URL**: http://localhost:3000/[ID do filme] <br>
+**URL**: http://localhost:3000/[ID_do_filme] <br>
 Modelo de dados:
 
     {
@@ -126,6 +126,6 @@ Envie a requisição clicando no botão ‘Send’
 	
 **Para EXCLUIR um filme no banco de dados utilizando ID:** <br>
 **Método**: DELETE<br>
-**URL**: http://localhost:3000/[ID do filme]<br>
+**URL**: http://localhost:3000/[ID_do_filme]<br>
 Envie a requisição clicando no botão ‘Send’
 *OBS: Após o resultado desejado aparecer, confirme a exclusão clicando novamente no botão ‘Send’.*

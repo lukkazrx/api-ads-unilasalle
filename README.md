@@ -29,12 +29,12 @@ Porta: A aplicação será executada na porta 3000 (uma porta padrão).
 Modelo de Filme a ser inserido no banco de dados e validação JSON Schema: Define um modelo para inserir um Filme no banco de dados com validação usando Mongoose Schema. O banco de dados funciona com Collections e Documents. A Collection chamada de ‘Films’ tem Documents chamado ‘Films’ que por sua vez, possui 5 campos para receber dados.
 
 **[Bloco 3]**
-ROTAS DA API:
-Rota POST: Cria um novo documento na coleção films com os dados fornecidos no corpo da requisição e retorna o documento criado.
-Rota GET: Recupera e retorna todos os documentos da coleção films.
-Rota GET por ID: Recupera e retorna um único documento baseado no ID fornecido na URL.
-Rota PUT por ID: Atualiza um documento baseado no ID fornecido com os dados fornecidos no corpo da requisição e retorna o documento atualizado.
-Rota DELETE por ID: Deleta um documento baseado no ID fornecido e retorna o documento deletado.
+ROTAS DA API: <br>
+Rota POST: Cria um novo documento na coleção films com os dados fornecidos no corpo da requisição e retorna o documento criado. <br>
+Rota GET: Recupera e retorna todos os documentos da coleção films. <br>
+Rota GET por ID: Recupera e retorna um único documento baseado no ID fornecido na URL. <br>
+Rota PUT por ID: Atualiza um documento baseado no ID fornecido com os dados fornecidos no corpo da requisição e retorna o documento atualizado. <br>
+Rota DELETE por ID: Deleta um documento baseado no ID fornecido e retorna o documento deletado. <br>
 
 **[Bloco 4]** 
 **Inicialização**: 
